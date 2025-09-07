@@ -1,0 +1,36 @@
+{
+    "items": [
+        {
+            "title": "Basics of Bioinformatics",
+            "image": "basics-of-bioinformatics.svg"
+        },
+        {
+            "title": "Molecular Docking & Drug Design",
+            "image": "molecular-docking-drug-design.svg"
+        },
+        {
+            "title": "Protein Molecular Dynamics Simulation",
+            "image": "protein-molecular-dynamics.svg"
+        },
+        {
+            "title": "Genetic Engineering",
+            "image": "genetic-engineering.svg"
+        },
+        {
+            "title": "Monoclonal Antibody Designing",
+            "image": "monoclonal-antibody-designing.svg"
+        },
+        {
+            "title": "Biosimilars",
+            "image": "biosimilars.svg"
+        },
+        {
+            "title": "Immunoinformatics",
+            "image": "immunoinformatics.svg"
+        },
+        {
+            "title": "Protein Expression Systems",
+            "image": "protein-expression-systems.svg"
+        }
+    ]
+}
