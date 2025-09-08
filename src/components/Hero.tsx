@@ -4,7 +4,7 @@ export default function Hero() {
     <header
       className="
         relative isolate
-        bg-[url('/src/assets/hero.svg')]  
+        bg-[url('/public/hero.svg')]  
         bg-cover bg-center
       "
     >

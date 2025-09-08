@@ -17,7 +17,7 @@ export default function Navbar() {
         <div className="h-16 flex items-center justify-between">
           <a href="/" className="inline-flex items-center gap-3">
             <img
-              src="/src/assets/logo.svg"
+              src="logo.svg"
               alt="Pep Allele Biologics"
               className="h-10 w-auto"
             />

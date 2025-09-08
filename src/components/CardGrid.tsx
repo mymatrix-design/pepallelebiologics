@@ -1,5 +1,19 @@
-/* CardGrid.jsx */
-export default function CardGrid({ data, imageBasePath, heading }) {
+type CardGridItem = {
+  title: string;
+  image: string;
+};
+
+type CardGridProps = {
+  data: CardGridItem[];
+  imageBasePath?: string;
+  heading?: string;
+};
+
+export default function CardGrid({
+  data,
+  imageBasePath = "",
+  heading,
+}: CardGridProps) {
   return (
     <section className="py-12">
       {heading && (
