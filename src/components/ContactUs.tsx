@@ -39,7 +39,7 @@ export default function ContactUs() {
           <h3 className="text-xl font-semibold text-sky-600 mb-6">Contact Us</h3>
 
           <p className="font-semibold text-slate-800 mb-1">Contact Number:</p>
-          <p className="text-slate-600 mb-6">+91 95914 00058</p>
+          <p className="text-slate-600 mb-6"></p>
 
           <p className="font-semibold text-slate-800 mb-1">Email:</p>
           <p className="text-slate-600 break-all">info@pepallelebiologics.com</p>
