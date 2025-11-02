@@ -47,7 +47,7 @@ export default function Features() {
               </div>
 
               <h3 className="mt-5 text-lg font-semibold text-gray-900 md:text-xl">
-                f.title
+                {f.title}
               </h3>
 
               <p className="mt-3 max-w-xs text-sm leading-6 text-gray-700">

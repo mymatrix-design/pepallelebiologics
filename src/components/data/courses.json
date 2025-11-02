@@ -1,36 +1,55 @@
 {
-    "items": [
+    "levels": [
         {
-            "title": "Basics of Bioinformatics",
-            "image": "basics-of-bioinformatics.svg"
+            "title": "Core Scientific Foundations (Basic Level)",
+            "courses": [
+                {
+                    "title": "Basics of Bioinformatics",
+                    "image": "basics-of-bioinformatics.svg"
+                },
+                {
+                    "title": "Genetic Engineering",
+                    "image": "genetic-engineering.svg"
+                },
+                {
+                    "title": "CRISPR/Cas9 – Practical for Beginners",
+                    "image": "crispr-cas9-beginners.svg"
+                }
+            ]
         },
         {
-            "title": "Molecular Docking & Drug Design",
-            "image": "molecular-docking-drug-design.svg"
+            "title": "Specialized Technical Expertise (Advanced Level)",
+            "courses": [
+                {
+                    "title": "Molecular Docking & Drug Design",
+                    "image": "molecular-docking-drug-design.svg"
+                },
+                {
+                    "title": "Protein Expression & Production Systems",
+                    "image": "protein-expression-systems.svg"
+                },
+                {
+                    "title": "Immunology and Immunoinformatics",
+                    "image": "immunoinformatics.svg"
+                }
+            ]
         },
         {
-            "title": "Protein Molecular Dynamics Simulation",
-            "image": "protein-molecular-dynamics.svg"
-        },
-        {
-            "title": "Genetic Engineering",
-            "image": "genetic-engineering.svg"
-        },
-        {
-            "title": "Monoclonal Antibody Designing",
-            "image": "monoclonal-antibody-designing.svg"
-        },
-        {
-            "title": "Biosimilars",
-            "image": "biosimilars.svg"
-        },
-        {
-            "title": "Immunoinformatics",
-            "image": "immunoinformatics.svg"
-        },
-        {
-            "title": "Protein Expression Systems",
-            "image": "protein-expression-systems.svg"
+            "title": "High-End Research Proficiencies (Expert Level)",
+            "courses": [
+                {
+                    "title": "Protein Molecular Dynamics Simulation",
+                    "image": "protein-molecular-dynamics.svg"
+                },
+                {
+                    "title": "Monoclonal Antibody Designing",
+                    "image": "monoclonal-antibody-designing.svg"
+                },
+                {
+                    "title": "Biosimilar Characterization Techniques",
+                    "image": "biosimilars.svg"
+                }
+            ]
         }
     ]
 }

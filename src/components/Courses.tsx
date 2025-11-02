@@ -1,6 +1,21 @@
-import coursesData from './data/courses.json';
-import CardGrid from './CardGrid';
+import coursesData from "./data/courses.json";
+import CardGrid from "./CardGrid";
 
 export default function Courses() {
-  return <CardGrid data={coursesData.items} imageBasePath={"courses/"} heading="Pep Allele Education : Courses" />;
+  const levels = (coursesData as any).levels ?? [];
+
+  return (
+    <section className="py-12">
+      <div className="space-y-12">
+        {levels.map((lvl: any, i: number) => (
+          <CardGrid
+            key={i}
+            data={lvl.courses}
+            imageBasePath="/courses/"
+            heading={lvl.title}
+          />
+        ))}
+      </div>
+    </section>
+  );
 }

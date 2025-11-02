@@ -3,7 +3,11 @@ import Courses from './components/Courses'
 import Services from './components/Services'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
-import Features from './components/Features'
+// import Features from './components/Features'
+import AboutUs from './components/AboutUs'
+import OurTeam from './components/OurTeam'
+import ContactUs from './components/ContactUs'
+import Academy from './components/Academy'
 
 function App() {
 
@@ -11,22 +15,21 @@ function App() {
     <>
       <Navbar />
       <Hero />
-      <Features />
-      <div className="max-w-4xl mx-auto text-center p-6">
-        <h2 className="text-3xl font-bold mb-2">
-          All the biotech skills you need — in one place
-        </h2>
-        <p className="text-gray-600">
-          Gain essential knowledge and hands-on expertise to advance your career in life sciences with PEP Allele Education.
-        </p>
+      <div id='about' className='pb-4'>
       </div>
-      <div id='courses' className='pb-4'>
+      <AboutUs />
+      {/* <Features /> */}
+      <div id='academy' className='pb-4'>
       </div>
+      <Academy />
       <Courses />
       <div id='services' className='pb-4'>
       </div>
       <Services />
-
+      <div id='team' className='pb-4'></div>
+      <OurTeam />
+      <div id='contact' className='pb-4'></div>
+      <ContactUs />
     </>
   )
 }
