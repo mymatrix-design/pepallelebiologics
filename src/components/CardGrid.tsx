@@ -15,23 +15,25 @@ export default function CardGrid({
   heading,
 }: CardGridProps) {
   return (
-    <section className="mx-auto max-w-7xl px-4 sm:px-6">
+    <section className="mx-auto max-w-7xl px-4 sm:px-6 py-12">
       {heading && (
-        <h3 className="text-2xl font-bold text-center mb-6">{heading}</h3>
+        <h2 className="text-2xl font-bold text-center mb-8">{heading}</h2>
       )}
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
         {data.map((item, idx) => (
           <div key={idx} className="group">
-            <h4 className="text-lg font-semibold text-gray-900 text-center mb-3">
+            {/* Title */}
+            <h3 className="min-h-[3rem] flex items-center justify-center text-center text-lg font-semibold text-gray-900 mb-5">
               {item.title}
-            </h4>
+            </h3>
 
-            <div className="rounded-md border border-gray-200 shadow-sm overflow-hidden bg-white">
+            {/* Larger transparent lane */}
+            <div className="h-[300px] sm:h-[340px] lg:h-[380px] flex items-center justify-center">
               <img
                 src={`${imageBasePath}${item.image}`}
                 alt={item.title}
-                className="w-full h-auto block transition-transform duration-300 group-hover:scale-[1.01]"
+                className="max-h-full max-w-full object-contain transition-transform duration-300 group-hover:scale-[1.03]"
                 loading="lazy"
               />
             </div>
