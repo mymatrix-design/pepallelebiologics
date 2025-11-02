@@ -37,7 +37,7 @@ export default function Navbar() {
 
             <div className="leading-tight">
               <a href="tel:+919580000000" className="font-medium hover:opacity-90">
-                +91-9580xxxxxx
+                
               </a>
               <div className="text-gray-500">Mon–Sat 10:00 am–7:00 pm</div>
             </div>
