@@ -25,7 +25,7 @@ export default function Services() {
                     <li>Advisory support to optimize workflows and experimental methods</li>
                 </ul>
 
-                <h3 className="text-2xl font-semibold mb-3 text-left">
+                {/* <h3 className="text-2xl font-semibold mb-3 text-left">
                     Biosimilar Testing Services
                 </h3>
                 <p className="mb-3 text-[15px]">
@@ -36,7 +36,7 @@ export default function Services() {
                     <li>Sample analysis with comparison reports</li>
                     <li>SOPs aligned with regulatory standards</li>
                     <li>Advanced analytical capabilities</li>
-                </ul>
+                </ul> */}
             </div>
 
 

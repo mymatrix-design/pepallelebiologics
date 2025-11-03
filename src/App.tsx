@@ -26,8 +26,8 @@ function App() {
       <div id='services' className='pb-4'>
       </div>
       <Services />
-      <div id='team' className='pb-4'></div>
-      <OurTeam />
+      {/* <div id='team' className='pb-4'></div>
+      <OurTeam /> */}
       <div id='contact' className='pb-4'></div>
       <ContactUs />
     </>

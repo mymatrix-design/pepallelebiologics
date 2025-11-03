@@ -9,7 +9,6 @@ export default function Navbar() {
     { href: "#about", label: "About us" },
     { href: "#academy", label: "Academy" },
     { href: "#services", label: "Services" },
-    { href: "#team", label: "Our team" },
     { href: "#contact", label: "Contact us" },
   ];
 
@@ -36,9 +35,6 @@ export default function Navbar() {
             </div>
 
             <div className="leading-tight">
-              <a href="tel:+919580000000" className="font-medium hover:opacity-90">
-                +91-9580xxxxxx
-              </a>
               <div className="text-gray-500">Mon–Sat 10:00 am–7:00 pm</div>
             </div>
 
