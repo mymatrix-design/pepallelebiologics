@@ -30,11 +30,7 @@ export default function Navbar() {
           {/* Right: three compact info blocks (hide some on small screens) */}
           <div className="hidden md:flex items-center gap-10 text-[14px] text-gray-900">
             <div className="leading-tight">
-              <div className="font-medium">Mumbai</div>
-              <div className="text-gray-500">India</div>
-            </div>
-
-            <div className="leading-tight">
+              <div className="font-medium">Mumbai, India</div>
               <div className="text-gray-500">Mon–Sat 10:00 am–7:00 pm</div>
             </div>
 

@@ -5,7 +5,7 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 // import Features from './components/Features'
 import AboutUs from './components/AboutUs'
-import OurTeam from './components/OurTeam'
+// import OurTeam from './components/OurTeam'
 import ContactUs from './components/ContactUs'
 import Academy from './components/Academy'
 
