@@ -1,0 +1,17 @@
+/*
+  # Cache static assets aggressively (adjust as needed for your hosting)
+  /logo.svg
+    Cache-Control: public, max-age=31536000, immutable
+  /hero.svg
+    Cache-Control: public, max-age=31536000, immutable
+  /marketing/*
+    Cache-Control: public, max-age=31536000, immutable
+  /services/*
+    Cache-Control: public, max-age=31536000, immutable
+  /courses/*
+    Cache-Control: public, max-age=31536000, immutable
+
+  # Keep HTML short (so deploys publish quickly)
+  /index.html
+    Cache-Control: public, max-age=0, must-revalidate
+*/

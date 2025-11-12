@@ -1,7 +1,8 @@
 // Academy.tsx
 export default function Academy() {
   return (
-    <section className="max-w-7xl mx-auto px-4 sm:px-6 py-10 text-gray-800 leading-relaxed text-justify">
+
+    <section id="academy" className="scroll-mt-20 max-w-7xl mx-auto px-4 sm:px-6 py-10 text-gray-800 leading-relaxed text-justify">
       <h2 className="text-3xl text-center font-bold mb-8">Pep Allele Academy</h2>
 
       <p className="mb-6">

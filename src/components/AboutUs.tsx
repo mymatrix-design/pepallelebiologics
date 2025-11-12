@@ -1,6 +1,7 @@
 export default function AboutUs() {
   return (
-    <section className="max-w-7xl mx-auto px-4 py-10 sm:px-6 text-gray-800 leading-relaxed text-justify">
+
+    <section id="about" className="scroll-mt-20 max-w-7xl mx-auto px-4 py-10 sm:px-6 text-gray-800 leading-relaxed text-justify">
       {/* --- About Us --- */}
       <h2 className="text-3xl text-left font-bold mb-8">About us</h2>
 

@@ -32,7 +32,7 @@ export default function ContactUs() {
   }
 
   return (
-    <section id="contact" className="max-w-7xl mx-auto px-4 sm:px-6 py-12">
+    <section id="contact" className="scroll-mt-20 max-w-7xl mx-auto px-4 sm:px-6 py-12">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* Left: Contact info */}
         <aside className="md:pr-4">
@@ -116,7 +116,7 @@ export default function ContactUs() {
             <div className="aspect-[3/2] md:h-[290px]">
               <iframe
                 title="IIT Bombay – Powai Map"
-                src="https://www.google.com/maps?q=IIT%20Bombay%2C%20Powai%2C%20Mumbai&z=15&output=embed"
+                src="https://www.google.com/maps?q=Mumbai&z=15&output=embed"
                 className="h-full w-full"
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"

@@ -15,20 +15,13 @@ function App() {
     <>
       <Navbar />
       <Hero />
-      <div id='about' className='pb-4'>
-      </div>
       <AboutUs />
       {/* <Features /> */}
-      <div id='academy' className='pb-4'>
-      </div>
       <Academy />
       <Courses />
-      <div id='services' className='pb-4'>
-      </div>
       <Services />
-      {/* <div id='team' className='pb-4'></div>
+      {/* <div id='team' className='py-4'></div>
       <OurTeam /> */}
-      <div id='contact' className='pb-4'></div>
       <ContactUs />
     </>
   )

@@ -2,7 +2,7 @@ export default function Services() {
     return (
         <section
             id="services"
-            className="max-w-7xl mx-auto px-4 sm:px-6 py-12 text-gray-800"
+            className="scroll-mt-20 max-w-7xl mx-auto px-4 sm:px-6 py-12 text-gray-800"
         >
             {/* Heading */}
             <h2 className="text-3xl font-bold text-center mb-8">Our Services</h2>
@@ -43,22 +43,46 @@ export default function Services() {
             {/* Gene Cloning Workflow (SVG 1) */}
             <div className="mt-10">
                 <div className="-mx-4 sm:mx-0">
-                    <img
-                        src="/services/service1.svg"
-                        alt="Gene Cloning Consulting Workflow"
-                        className="w-full h-auto"
-                    />
+                    <picture>
+                        <source
+                            type="image/avif"
+                            srcSet="/services/service1-embedded-1.avif, /services/service1-embedded-1@2x.avif 2x"
+                        />
+                        <source
+                            type="image/webp"
+                            srcSet="/services/service1-embedded-1.webp, /services/service1-embedded-1@2x.webp 2x"
+                        />
+                        <img
+                            src="/services/service1.svg"
+                            alt="Gene Cloning Consulting Workflow"
+                            className="w-full h-auto"
+                            loading="lazy"
+                            decoding="async"
+                        />
+                    </picture>
                 </div>
             </div>
 
             {/* Site-Directed Mutagenesis Workflow (SVG 2) */}
             <div className="mt-16">
                 <div className="-mx-4 sm:mx-0">
-                    <img
-                        src="/services/service2.svg"
-                        alt="Site-directed mutagenesis consulting workflow"
-                        className="w-full h-auto"
-                    />
+                    <picture>
+                        <source
+                            type="image/avif"
+                            srcSet="/services/service2-embedded-1.avif, /services/service2-embedded-1@2x.avif 2x"
+                        />
+                        <source
+                            type="image/webp"
+                            srcSet="/services/service2-embedded-1.webp, /services/service2-embedded-1@2x.webp 2x"
+                        />
+                        <img
+                            src="/services/service2.svg"
+                            alt="Site-directed mutagenesis consulting workflow"
+                            className="w-full h-auto"
+                            loading="lazy"
+                            decoding="async"
+                        />
+                    </picture>
                 </div>
             </div>
         </section>

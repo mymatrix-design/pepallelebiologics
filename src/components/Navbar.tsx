@@ -19,11 +19,24 @@ export default function Navbar() {
         <div className="h-16 flex items-center justify-between">
           {/* Left: logo only (as in screenshot 1) */}
           <a href="/" className="inline-flex items-center gap-3">
-            <img
-              src="logo.svg"
-              alt="Pep Allele Biologics"
-              className="h-16 w-auto"
-            />
+            <picture>
+              <source
+                type="image/avif"
+                srcSet="/logo-embedded-1.avif, /logo-embedded-1@2x.avif 2x"
+              />
+              <source
+                type="image/webp"
+                srcSet="/logo-embedded-1.webp, /logo-embedded-1@2x.webp 2x"
+              />
+              <img
+                src="/logo.svg"
+                alt="Pep Allele Biologics"
+                className="h-16 w-auto"
+                width={160}
+                height={64}
+                decoding="async"
+              />
+            </picture>
             <span className="sr-only">Pep Allele Biologics</span>
           </a>
 
@@ -101,9 +114,6 @@ export default function Navbar() {
                 ))}
               </ul>
               <div className="mt-3 border-t border-gray-200 pt-3 text-sm">
-                <a href="tel:+919580000000" className="block">
-                  +91-9580xxxxxx
-                </a>
                 <a href="mailto:info@pepallelebiologics.com" className="block">
                   info@pepallelebiologics.com
                 </a>
